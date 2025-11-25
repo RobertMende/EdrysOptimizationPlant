@@ -1,0 +1,69 @@
+id: ZW166OhpFMxbW1WS
+createdBy: lfzzPSvvmAws
+dateCreated: 1764066263263
+name: My New Class
+meta:
+  logo: >-
+    https://github.com/RobertMende/EdrysClientDescription/blob/main/images/withTags.jpg?raw=true
+  description: |+
+    Control the optimization plant via Edrys.
+
+  selfAssign: false
+  defaultNumberOfRooms: 0
+members:
+  teacher: []
+  student: []
+modules:
+  - url: https://edrys-labs.github.io/module-markdown-it/index.html
+    config:
+      content: >-
+        # Welcome to the Optimization Plant
+                
+        ![](https://github.com/RobertMende/EdrysClientDescription/blob/main/images/withoutTags.jpg?raw=true)
+         
+        This plant is used to determine the influence of reactor temperature,
+        flow rate and concentration on the oxidation of methanol. 
+
+
+        To control these parameters, students are able to set the oven
+        temperature, the thermostat temperature of the saturator and the flow
+        rate of the incoming air.
+
+
+        In order to evaluate the extent of influence of these factors, the
+        exhaust air is split and partially flows through an infrared
+        spectrometer. 
+
+
+        The IR spectrum itself as well as the time-resolved transmission at
+        characteristic wavelengths give semi-quantitative insights into the
+        product distribution.
+
+
+        For further information, refer to [the OPAL
+        course](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/46057193483?7) 
+    studentConfig:
+      content: ''
+    teacherConfig:
+      content: ''
+    stationConfig:
+      content: ''
+    showInCustom: '*'
+    width: full
+    height: tall
+  - url: https://edrys-labs.github.io/module-streaming/index.html
+    config: ''
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: station
+    width: full
+    height: tall
+  - url: https://robertmende.github.io/New-Interactive-PI-Edrys-Client/index.html
+    config: ''
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: station
+    width: full
+    height: tall
